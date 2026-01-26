@@ -1,3 +1,3 @@
-a = 45
-b = 32
-print(a - b)
+name = input("What is your name?")
+
+print(f"hello {name}")
