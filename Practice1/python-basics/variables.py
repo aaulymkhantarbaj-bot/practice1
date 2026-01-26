@@ -12,3 +12,23 @@ z = float(3)
 print(x)
 print(y)
 print(z)
+
+#3
+fruits = ["apple", "banana", "cherry"]
+x, y, z = fruits
+
+print(x)
+print(y)
+print(z)
+
+#4
+x, y, z = "Orange", "Banana", "Cherry"
+print(x)
+print(y)
+print(z)
+
+#5
+x = y = z = "python"
+print(x)
+print(y)
+print(z)
