@@ -8,6 +8,7 @@ radian = math.radians(degree)
 print("Output radian:", round(radian, 6))
 
 #2 Write a Python program to calculate the area of a trapezoid.
+import math
 h = int(input())
 b1 = int(input())
 b2 = int(input())
@@ -26,9 +27,10 @@ area = (n * a * a) / (4 * math.tan(math.pi / n))
 print(round(area))
 
 #4 Write a Python program to calculate the area of a parallelogram.
+import math
 b = int(input())
 h = int(input())
-A = b * h
+A = float(b * h)
 print("Length of base:", b)
 print("Height of parallelogram:", h)
 print("Expected Output:", A)
